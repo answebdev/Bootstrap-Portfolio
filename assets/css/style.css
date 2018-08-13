@@ -108,3 +108,10 @@ h2 {
   #contact-image {
       border-radius: 4px;
   }
+  
+  .main-container {
+    /* float: left; */
+    /* width: 100%; */
+    padding: 30px;
+    margin: 0 0 40px;
+  }

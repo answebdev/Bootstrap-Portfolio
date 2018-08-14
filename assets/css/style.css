@@ -29,6 +29,7 @@ h2 {
 }
 
 .navbar-brand {
+    margin-top: 8px;
     margin-left: 55px;
     letter-spacing: 1.5px;
 }
@@ -96,5 +97,7 @@ ul {
   /* ===== CONTACT ===== */
 
   #contact-image {
+      width: 99%;
+      margin-top: 8px;
       border-radius: 4px;
   }

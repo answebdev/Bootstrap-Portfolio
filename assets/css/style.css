@@ -7,18 +7,9 @@ body {
 }
 
 #profile-image {
+    width: 88%;
     border-radius: 4px;
 }
-
-/* .thumbnail {        
-    width: 300px;
-    height: 500px;
-    overflow: auto;
-} */
-
-/* #main-footer {
-    flex-shrink: 0;
-} */
 
 h2 {
     font-weight: 700;
@@ -51,7 +42,6 @@ ul {
   .card {
     margin-bottom: 15px;
     margin-top: 15px;
-    /* box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); */
   }
 
   h5 {

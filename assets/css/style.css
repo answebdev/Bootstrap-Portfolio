@@ -50,39 +50,66 @@ ul {
 .main-container {
     padding: 30px;
     margin: 0 40px 40px 40px;
-  }
+}
 
-  #main-footer p {
+#main-footer p {
     color: #ffffff;
     font-size: 12px;
     letter-spacing: 0.1em;
-  }
+}
 
-  /* ===== PORTFOLIO ===== */
+/* ===== PORTFOLIO ===== */
 
-  .card {
+.card {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 15px;
-  }
+}
 
-  .card:hover {
+.card:hover {
     box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
-  }
+}
 
-  h5 {
+h5 {
+    text-align: center;
+}
+
+/* ===== CONTACT ===== */
+
+#contact-image {
+    width: 99%;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+#logo-section {
       text-align: center;
-  }
+}
 
-  /* ===== CONTACT ===== */
+#github-icon,
+#linkedin-icon,
+#email-icon,
+#pdf-icon {
+    /* float: left; */
+    width: 50%;
+    height: auto;
+}
 
-  #contact-image {
-      width: 99%;
-      margin-top: 8px;
-      border-radius: 4px;
-  }
+/* #github-icon:hover,
+#linkedin-icon:hover,
+#email-icon:hover,
+#pdf-icon:hover {
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+} */
 
-  /* ===== MEDIA QUERIES ===== */
+/* ===== MEDIA QUERIES ===== */
 @media screen and (min-width: 981px) and (max-width: 1200px) {
     .card {
         width: 100%;
